@@ -3,11 +3,11 @@ using DotNetCoreKoans.Engine;
 
 namespace DotNetCoreKoans.Koans
 {
-    public class PathToEnlightenment : Path
+  public class PathToEnlightenment : Path
+  {
+    public PathToEnlightenment()
     {
-        public PathToEnlightenment()
-        {
-           Types = new Type[] {
+      Types = new Type[] {
                 // START: Adventure Mode
                 typeof(AboutAsserts),
                 typeof(AboutNull),
@@ -30,6 +30,6 @@ namespace DotNetCoreKoans.Koans
                 typeof(AboutGenericContainers),
                 typeof(AboutBitwiseAndShiftOperator),
                 };
-        }
     }
+  }
 }
